@@ -100,13 +100,18 @@ body, main{
             transition: scale 0.3s ease;
         }
 
+        button:focus{
+            outline: 1px solid #111;
+            outline-offset: .25rem;
+        }
+
         button:hover{
             background-color: var(--green-500);
             scale: 1.05;
             cursor: pointer;
         }
 
-
+        
     }
 
     &:nth-child(3){
