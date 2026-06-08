@@ -26,6 +26,7 @@ body, main {
 .grid_parent {
   display: grid;
   grid-template-columns: 325px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
 }
 
 .grid-child {
@@ -80,10 +81,14 @@ body, main {
   background-color: var(--green-400);
   color: var(--white);
   border-radius: 5px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+  scale: 1;
   transition: background-colour 0.3s ease;
+  transition: scale 0.3s ease;
 }
 .grid-child:nth-child(2) button:hover {
   background-color: var(--green-500);
+  scale: 1.05;
 }
 .grid-child:nth-child(3) {
   display: flex;
