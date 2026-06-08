@@ -33,6 +33,7 @@ body, main{
     display: grid;
     grid-template-columns: 325px;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .grid-child{
