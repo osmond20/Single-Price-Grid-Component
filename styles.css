@@ -90,6 +90,7 @@ body, main {
 .grid-child:nth-child(2) button:hover {
   background-color: var(--green-500);
   scale: 1.05;
+  cursor: pointer;
 }
 .grid-child:nth-child(3) {
   display: flex;
@@ -109,6 +110,15 @@ body, main {
   color: var(--teal-100);
   font-size: 0.95rem;
   padding: 0.1rem;
+  scale: 1;
+  transition: color 0.3s ease;
+  transition: scale 0.3s ease;
+}
+.grid-child:nth-child(3) p:hover {
+  color: var(--white);
+  border: none;
+  scale: 1.03;
+  cursor: pointer;
 }
 
 @media (min-width: 40rem) {
