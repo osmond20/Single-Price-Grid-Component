@@ -8,7 +8,7 @@ $font: 'Karla', sans-serif;
     --teal-500: hsl(179, 62%, 45%);
     --teal-600: hsl(179, 70%, 40%);
     --green-400: hsl(71, 73%, 54%);
-    --green-500: #7ccf00;
+    --green-500:  hsl(71, 73%, 49%);
     --teal-100: hsl(207, 43%, 92%);
     --gray-500: hsl(218, 22%, 67%);
     --white: white;
@@ -96,7 +96,7 @@ body, main{
         }
 
         button:hover{
-            background-color: var();
+            background-color: var(--green-500);
         }
 
 
